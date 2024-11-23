@@ -1,0 +1,28 @@
+Moustapha Ahmed C18049
+                            TP : SOAP
+1. Concepts de base des services Web SOAP
+1. Quelle est la fonction principale du protocole SOAP ?
+SOAP (Simple Object Access Protocol) permet d’échanger des informations structurées entre des 
+applications via des protocoles comme HTTP. Il est utilisé pour la communication entre services web.
+2. Quelle partie d’un message SOAP contient les données principales à transmettre ?
+Le corps (body) du message SOAP contient les données principales à transmettre.
+3. Quel langage est utilisé pour décrire un service SOAP ?
+Le langage utilisé est WSDL (Web Services Description Language).
+4. Quel outil est le plus adapté pour tester un service SOAP ?
+L’outil SoapUI est couramment utilisé pour tester les services SOAP.
+5. Dans une approche Top-Down, quelle est la première étape ?
+La première étape est de définir le fichier WSDL, qui décrit le service.
+6. Quelle annotation est utilisée pour déclarer une méthode comme une opération SOAP en Jakarta ?
+L’annotation @WebMethod est utilisée.
+2. Questions Vrai/Faux
+Répondez aux questions pour clarifier les concepts :
+1. SOAP ne supporte que le protocole HTTP.
+Faux : SOAP supporte également d’autres protocoles comme SMTP.
+2. Dans l’approche Bottom-Up, le fichier WSDL est écrit manuellement.
+Faux : Dans l’approche Bottom-Up, le WSDL est généré automatiquement.
+3. SOAPUI permet uniquement de tester les services REST.
+Faux : SOAPUI permet de tester aussi bien les services SOAP que REST.
+4. Les services SOAP utilisent généralement XML pour structurer les messages.
+Vrai.
+5. WS-Security est utilisé pour protéger les messages SOAP.
+Vrai.
